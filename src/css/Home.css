@@ -1,0 +1,39 @@
+.service_name{
+    padding: 16px;
+    font-size: 20px;
+    color: white;
+}
+
+.top_profile_icon{
+    padding: 16px;
+}
+
+
+.home_greed{
+    margin-top: 100px;
+    font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    color: white;
+}
+
+.home_greed_bold{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.home_greed_regular{
+    font-size: 16px;
+    margin: 20px, 0px;
+}
+
+.q_category{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+

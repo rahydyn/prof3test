@@ -1,0 +1,60 @@
+
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: rgb(148,71,245);
+  background: linear-gradient(90deg, rgba(148,71,245,0.77) 1%, rgba(40,113,255,0.77) 100%); */
+  /* background: rgb(250,253,99);
+  background: linear-gradient(90deg, rgba(250,253,99,0.6) 1%, rgba(255,169,40,0.6) 100%); */
+  /* background: rgb(57,19,70);
+  background: linear-gradient(90deg, rgba(57,19,70,0.65) 1%, rgba(49,83,172,0.64) 100%); */
+  /* background: rgb(245,71,134);
+background: linear-gradient(90deg, rgba(245,71,134,0.7) 1%, rgba(225,40,255,0.7) 100%); */
+background: rgb(138,144,187);
+background: linear-gradient(0deg, rgba(138,144,187,1) 1%, rgba(115,94,184,1) 100%);
+  border-radius: 20px;
+  height: 200px;
+  /* box-shadow: 5px 5px 5px ; */
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

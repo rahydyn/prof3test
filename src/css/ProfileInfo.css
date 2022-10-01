@@ -1,0 +1,44 @@
+.profile_info{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+    height: 25%;
+}
+
+
+
+.profile_icon{
+    width: 100px;
+    margin: 0 auto;
+    
+}
+
+.profile_name{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.profile_tablist{
+    width: 100%;
+}
+.tab{
+    width: 33%;
+}
+
+.profile_card_button{
+    background: rgb(250,253,99);
+    background: linear-gradient(90deg, rgba(250,253,99,0.6) 1%, rgba(255,169,40,0.6) 100%);
+    border-radius: 20px;
+}
+
+.card_button_wrap{
+    margin: 0 auto;
+}
+
+.card_button_p{
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    
+}
+
